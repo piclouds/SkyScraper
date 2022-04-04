@@ -36,6 +36,11 @@ p {
     color: #f7c08a;
 }
 
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
 .lead {
     font-size: 20px;
 }
@@ -51,6 +56,11 @@ p {
 }
 .btn:hover {
     background: #f7c08a;
+    color: #333;
+}
+
+.btn-light {
+    background: #f4f4f4;
     color: #333;
 }
 
@@ -112,4 +122,29 @@ p {
 #showcase .content p {
     padding-bottom: 20px;
     line-height: 1.7em;
+}
+
+/* Home Info */
+#home-info {
+    height: 400px;
+}
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .content {
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 50px 30px;
+    overflow: hidden;
+}
+
+#home-info .content p {
+    padding-bottom: 30px;
+
 }

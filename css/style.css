@@ -12,7 +12,9 @@ body {
     line-height: 1.7em;
 }
 
-/* General */
+/* GENERAL */
+
+/* - Typography */
 a {
     color: #333;
     text-decoration: none;
@@ -28,17 +30,6 @@ p {
     margin: 10px 0;
 }
 
-.clear {
-    clear: both;
-}
-
-.container {
-    margin: auto;
-    max-width: 1100px;
-    overflow: auto;
-    padding: 0 20px;
-}
-
 .text-primary {
     color: #f7c08a;
 }
@@ -47,6 +38,25 @@ p {
     font-size: 40px;
 }
 
+.lead {
+    font-size: 20px;
+}
+
+
+/* - Padding */
+.y-padding-1 {
+    padding: 10px 0;
+}
+
+.y-padding-2 {
+    padding: 20px 0;
+}
+
+.y-padding-3 {
+    padding: 30px 0;
+}
+
+/* Color Palette */
 .bg-primary {
     background-color: #f7c08a;
     color: #333;
@@ -62,10 +72,7 @@ p {
     color: #fff;
 }
 
-.lead {
-    font-size: 20px;
-}
-
+/* - Buttons */
 .btn {
     display: inline-block;
     font-size: 18px;
@@ -86,22 +93,23 @@ p {
     color: #333;
 }
 
-/* Padding */
-.y-padding-1 {
-    padding: 10px 0;
+/* - Utility */
+.clear {
+    clear: both;
 }
 
-.y-padding-2 {
-    padding: 20px 0;
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
 }
 
-.y-padding-3 {
-    padding: 30px 0;
-}
 
-/* Header */
 
-/* -Navbar */
+/* HEADER */
+
+/* - Navbar */
 #navbar {
     background-color: #333;
     color: #fff;
@@ -138,7 +146,7 @@ p {
     color: #f7c08a !important;
 }
 
-/* -Showcase */
+/* - Showcase */
 #showcase {
     background: url('../img/showcase.jpg') no-repeat center center/cover;
     height: 600px;
@@ -160,7 +168,8 @@ p {
     line-height: 1.7em;
 }
 
-/* Home Info */
+/* HOME PAGE */
+/* - Home Info */
 #home-info {
     height: 400px;
 }
@@ -187,7 +196,7 @@ p {
 }
 
 
-/* Features */
+/* - Features */
 
 .box {
     float: left;
@@ -200,17 +209,9 @@ p {
     margin-bottom: 10px;
 }
 
-/* Footer */
-#main-footer {
-    text-align: center;
-    background: #444;
-    color: white;
-    padding: 20px;
-}
-
 
 /* ABOUT PAGE */
-/* About Info */
+/* - About Info */
 #about-info .info-right {
     float: right;
     width: 50%;
@@ -230,7 +231,7 @@ p {
     min-height: 100%;
 }
 
-/* Testimonials */
+/* - Testimonials */
 #testimonials {
     height: 600px;
     background: url('../img//test-bg.jpg') no-repeat center center/cover;
@@ -256,9 +257,9 @@ p {
 }
 
 
-/* Contact */
+/* CONTACT PAGE */
 
-/* Form */
+/* - Form */
 #contact-form .form-group {
     margin-bottom: 20px;
 }
@@ -282,4 +283,14 @@ p {
 
 #contact-form textarea {
     height: 200px;
+}
+
+
+
+/* FOOTER */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
 }
